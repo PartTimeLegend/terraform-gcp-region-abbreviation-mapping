@@ -20,7 +20,7 @@ jobs:
           fetch-depth: '0'
 
       - name: Validate Terraform Files
-        uses: devops-infra/action-tflint@v1.0.1
+        uses: devops-infra/action-tflint@v1.0.4
         with:
           tflint_path: "."
 
