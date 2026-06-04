@@ -35,6 +35,7 @@ variable "gcp_region_abbr_map" {
     "northamerica-northeast2"   = "nane2"
     "northamerica-south1"       = "nas1"
     "southamerica-east1"        = "sae1"
+    "southamerica-east2"        = "sae2"
     "southamerica-west1"        = "saw1"
     "us-central1"               = "usc1"
     "us-east1"                  = "use1"
