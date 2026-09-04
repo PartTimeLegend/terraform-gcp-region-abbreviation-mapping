@@ -27,6 +27,7 @@ variable "gcp_region_abbr_map" {
     "europe-west8"            = "euw8"
     "europe-west9"            = "euw9"
     "europe-west10"           = "euw10"
+    "europe-west11"           = "euw11"
     "europe-west12"           = "euw12"
     "me-central1"             = "mec1"
     "me-central2"             = "mec2"
@@ -46,6 +47,7 @@ variable "gcp_region_abbr_map" {
     "us-west2"                = "usw2"
     "us-west3"                = "usw3"
     "us-west4"                = "usw4"
+    "us-west5"                = "usw5"
   }
 }
 
