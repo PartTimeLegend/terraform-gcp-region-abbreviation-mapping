@@ -72,6 +72,17 @@ locals {
 | `region_names` | List of canonical GCP region IDs |
 | `region_abbreviations` | List of all region abbreviations |
 
+## Notes for future updates
+
+When adding or refreshing region mappings, always check these GCP region families for coverage:
+
+- preview / preview-like regions
+- gov / us-gov-* regions
+- dod / us-dod-* regions
+- standard public commercial regions
+
+This keeps the module aligned with Google Cloud’s regional naming conventions and prevents future omissions during routine refreshes.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
